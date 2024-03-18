@@ -67,7 +67,7 @@ public class JavaNativeCodeSandboxImpl implements JavaNativeCodeSandbox {
     }
 
     /**
-     * 1. 把用户的代码保存为文件
+     * 把用户的代码保存为文件
      *
      * @param code 用户代码
      * @return
@@ -87,7 +87,7 @@ public class JavaNativeCodeSandboxImpl implements JavaNativeCodeSandbox {
     }
 
     /**
-     * 2、编译代码
+     * 编译代码
      *
      * @param userCodeFile
      * @return
@@ -108,7 +108,7 @@ public class JavaNativeCodeSandboxImpl implements JavaNativeCodeSandbox {
     }
 
     /**
-     * 3、执行文件，获得执行结果列表
+     * 执行文件，获得执行结果列表
      *
      * @param userCodeFile
      * @param inputList
@@ -144,7 +144,7 @@ public class JavaNativeCodeSandboxImpl implements JavaNativeCodeSandbox {
     }
 
     /**
-     * 4、获取输出结果
+     * 获取输出结果
      *
      * @param executeMessageList
      * @return
@@ -182,7 +182,7 @@ public class JavaNativeCodeSandboxImpl implements JavaNativeCodeSandbox {
     }
 
     /**
-     * 5、删除文件
+     * 删除文件
      *
      * @param userCodeFile
      * @return
